@@ -43,16 +43,18 @@ This repository is your companion for mastering AI development. Each article is 
 
 ### ✅ Completed Articles
 - ✅ [Productivity Workflow Using Claude Code](articles/claude-code-productivity-workflow.md) - Master AI-assisted development with Claude Code
+- ✅ [AI Agent Flavors - Generative AI vs Agentic AI vs AI Agents](articles/ai-agent-flavors.md) - Understanding the different types of AI systems and their capabilities
+- ✅ [RAG Pipeline Guide – From Load to LLM](articles/rag-pipeline-guide.md) - Comprehensive guide to building Retrieval-Augmented Generation systems
 
 ### 🚧 Planned Articles
-- ❌ AI Agent Development Fundamentals
-- ❌ RAG System Implementation Guide
 - ❌ Testing AI Applications Effectively
 - ❌ Prompt Engineering for Developers
 - ❌ AI Model Integration Patterns
 - ❌ Debugging AI Systems
 - ❌ Performance Monitoring for AI Apps
 - ❌ AI Security Best Practices
+- ❌ Advanced AI Agent Architectures
+- ❌ Vector Database Optimization
 
 ## 🚀 How to Use This Knowledge Base
 
