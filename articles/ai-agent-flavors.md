@@ -50,8 +50,64 @@ AI agents use LLMs but are enhanced with **tool usage capabilities**. These agen
 
 Asking an agent:
 
-> "What's the latest AI news today?"
+> "What’s the latest AI news today?"
 
-Since the LLM isn't trained on real-time data, it uses a tool like Tavily API to fetch the latest updates and summarizes the results.
+Since the LLM isn’t trained on real-time data, it uses a tool like Tavily API to fetch the latest updates and summarizes the results.
 
 ### Nature:
+
+- Tool-enhanced
+- External-data reliant
+
+---
+
+## 3. Agentic AI
+
+Agentic AI is a **workflow-oriented system** where **multiple AI agents collaborate** to achieve a **complex goal**.
+
+### Key Characteristics:
+
+- **Multi-agent orchestration**
+- **Subtask delegation**
+- **Inter-agent communication**
+- **Human feedback integration**
+
+### Example Use Case:
+
+Automatically converting a **YouTube video into a blog post**:
+
+#### Workflow:
+
+1. **Agent 1**: Extract transcript from YouTube video
+2. **Agent 2**: Generate blog title from transcript
+3. **Agent 3**: Create blog description
+4. **Agent 4**: Write blog conclusion
+
+Each agent can use an LLM and may rely on outputs from previous agents. Optionally, human feedback can be injected before publishing.
+
+### Nature:
+
+- **Autonomous + Collaborative**
+- **Goal-oriented system**
+
+---
+
+## Key Differences Summary
+
+| Flavor        | Scope                  | Autonomy         | Tool Usage     | Collaboration |
+| ------------- | ---------------------- | ---------------- | -------------- | ------------- |
+| Generative AI | Content generation     | Prompt-reactive  | No (typically) | No            |
+| AI Agents     | Single-task completion | Semi-autonomous  | Yes            | No            |
+| Agentic AI    | Complex workflow       | Fully autonomous | Yes            | Yes           |
+
+---
+
+## Conclusion
+
+Understanding the differences between Generative AI, AI Agents, and Agentic AI is fundamental to architecting intelligent applications. As AI tooling evolves, developers can blend these paradigms to create highly adaptive, multi-modal, goal-driven systems.
+
+Stay tuned for more articles on agent frameworks, tool integrations, and advanced AI architectures.
+
+---
+
+_Inspired by Krish Naik’s YouTube breakdown: [Watch Video](https://www.youtube.com/watch?v=p4pHsuEf4Ms)_
